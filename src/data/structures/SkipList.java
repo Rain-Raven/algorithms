@@ -154,6 +154,7 @@ public class SkipList<T extends Comparable<? super T>> {
         for (int i = 0; i <= 10000; i++) {
             skipList.insert(r.nextInt(10000));
         }
+        
         skipList.printAll();
     }
 }
